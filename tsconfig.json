@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2022",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": ["@vuepress/client/types"],
+    "declaration": false
+  },
+  "include": ["**/.vuepress/**/*"],
+  "exclude": ["node_modules", ".cache", ".temp", "dist"]
+}
