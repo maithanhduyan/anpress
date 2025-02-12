@@ -6,7 +6,9 @@ on:
     branches:
       # make sure this is the branch you are using
       - main
-
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
 permissions:
   contents: write
 
